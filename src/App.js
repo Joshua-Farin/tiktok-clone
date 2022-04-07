@@ -1,10 +1,18 @@
-
+import React from 'react';
 import './App.css';
+import Video from './Video';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Build a tiktok clone with merns tack</h1>
+    <div className="app">
+      <div className='app__videos'>
+        <Video />
+        <Video />
+      </div>
+      
+      {/* {app container} */}
+      {/* {videos} */}
+      {/* {} */}
     </div>
   );
 }
